@@ -9,7 +9,7 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   padding: 76px 100px;
 }
 
@@ -20,7 +20,7 @@ header nav ul {
 }
 
 header nav ul a {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -28,7 +28,7 @@ header nav ul a {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -40,7 +40,18 @@ ul li:hover {
   filter: blur(0);
 }
 
-/* class class  class class  class class  class class  class class */
-.logo{
-  cursor: pointer;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  color: #ffffff;
 }
+
+/* class class  class class  class class  class class  class class */
